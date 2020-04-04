@@ -1,0 +1,8 @@
+.hangman {
+  font-size: 1.5em;
+}
+
+.hangman p {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,11 @@
+.message {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 500px) {
+  .message {
+    font-size: 18px;
+    font-weight: normal;
+  }
+}

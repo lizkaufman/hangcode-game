@@ -1,0 +1,38 @@
+.wordDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5em;
+  margin: 20px;
+  padding: 10px;
+}
+
+.wordDisplay p {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.guessInput {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  width: 9em;
+}
+
+.resetButton {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .guessInput {
+    margin: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    width: 9em;
+  }
+  .resetButton {
+    margin-top: 10px;
+  }
+}

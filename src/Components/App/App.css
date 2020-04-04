@@ -1,0 +1,82 @@
+App {
+  text-align: center;
+}
+body {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 35px;
+  height: 80vh;
+}
+h1 {
+  font-family: 'Nosifer', cursive;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+h3 {
+  color: whitesmoke;
+  font-size: 26px;
+  margin: 0;
+}
+
+input {
+  border-radius: 32px;
+  padding: 20px;
+}
+
+button {
+  border-radius: 32px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #5b3256;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b3256ab;
+}
+
+.nooseImg {
+  height: 120px;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+  h1 {
+    font-family: 'Nosifer', cursive;
+    color: whitesmoke;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  h3 {
+    color: whitesmoke;
+    font-size: 18px;
+  }
+  input {
+    border-radius: 32px;
+    padding: 10px;
+  }
+  button {
+    border-radius: 32px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #5b3256;
+  }
+  .nooseImg {
+    height: 60px;
+    margin-top: 10px;
+  }
+}
